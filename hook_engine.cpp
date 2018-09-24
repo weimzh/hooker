@@ -35,7 +35,6 @@
 #include <string.h>
 #include <stdint.h>
 #include <Zydis/Zydis.h>
-#include "hook_engine.h"
 
 #define PAGE_SIZE         sysconf(_SC_PAGESIZE)
 #define PAGE_MASK         (~(PAGE_SIZE-1))
